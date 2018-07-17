@@ -1,4 +1,4 @@
-;; emacs-dark-theme.el 
+;; twilight-theme.el
 
 ;; Copyright (C) 2018 by Sunil
 
@@ -28,7 +28,7 @@
 (unless (>= emacs-major-version 24)
   (error "The emacs-dark-theme requires Emacs 24 or later!"))
 
-(deftheme emacs-dark-theme "The emacs-dark-theme")
+(deftheme twilight-theme "The emacs twilight theme")
 
 
 
