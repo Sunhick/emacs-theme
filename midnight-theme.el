@@ -27,7 +27,7 @@
 
 (custom-theme-set-faces
  'midnight
- '(cursor ((t (:foreground "white")))
+ '(cursor ((t (:foreground "white"))))
  '(default ((t (:background "#232136" :foreground "#FFFFF0")))))
 
 ;;;###autoload
