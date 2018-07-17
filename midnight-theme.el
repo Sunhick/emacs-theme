@@ -40,7 +40,7 @@
     :foreground "grey80" :box (:line-width 1 :color "#38374A") :weight light))))
 
  ;; code highlighting
- '(font-lock-comment-face ((t (:foreground "#7A8081")))
+ '(font-lock-comment-face ((t (:foreground "#7A8081"))))
  '(font-lock-keyword-face ((t (:foreground "#00B2B2"))))
  '(font-lock-string-face ((t (:foreground "#4CA64C"))))
  )
