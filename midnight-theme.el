@@ -31,17 +31,18 @@
  '(default ((t (:background "#232136" :foreground "#c6c6cc"))))
 
  ;; Mode line
- '(mode-line ((t (:background "#38374A" :foreground "##CFCFD0"))))
+ '(mode-line ((t (:background "#38374A" :foreground "#CFCFD0"))))
  '(mode-line-buffer-id ((t (:weight bold :foreground "orange"))))
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
                                               :style released-button)))))
- '(mode-line-inactive ((t (:background "grey30" :foreground "grey80"
-                                       :box (:line-width -1 :color "grey40" :style nil)
-                                       :weight light))))
+ '(mode-line-inactive ((t (:background "grey30" 
+    :foreground "grey80" :box (:line-width 1 :color "#38374A") :weight light))))
 
  ;; code highlighting
- (set-face-foreground 'font-lock-comment-face "#B1560F")
+ '(font-lock-comment-face ((t (:foreground "#7A8081")))
+ '(font-lock-keyword-face ((t (:foreground "#00B2B2"))))
+ '(font-lock-string-face ((t (:foreground "#4CA64C"))))
  )
 
 ;;;###autoload
