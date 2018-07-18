@@ -28,7 +28,7 @@
 (custom-theme-set-faces
  'midnight
  '(cursor ((t (:foreground "white"))))
- '(default ((t (:background "#232136" :foreground "#c6c6cc"))))
+ '(default ((t (:background "#211A23" :foreground "#C6C6CC"))))
 
  ;; Mode line
  '(mode-line ((t (:background "#38374A" :foreground "#CFCFD0"))))
@@ -36,7 +36,7 @@
  '(mode-line-emphasis ((t (:weight bold))))
  '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
                                               :style released-button)))))
- '(mode-line-inactive ((t (:background "grey30" 
+ '(mode-line-inactive ((t (:background "grey30"
     :foreground "grey80" :box (:line-width 1 :color "#38374A") :weight light))))
 
  ;; code highlighting
