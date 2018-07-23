@@ -28,7 +28,7 @@
 (custom-theme-set-faces
  'midnight
  '(cursor ((t (:foreground "white"))))
- '(default ((t (:background "#303030" :foreground "#C6C6CC"))))
+ '(default ((t (:background "#211A23" :foreground "#C6C6CC"))))
 
  ;; Mode line
  '(mode-line ((t (:background "#38374A" :foreground "#CFCFD0"))))
